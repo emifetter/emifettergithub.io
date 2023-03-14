@@ -1,0 +1,333 @@
+.titulo h1 {
+    
+    color:#f2f2f2;
+	font-size:60px;
+	line-height:160px;
+	float:left;
+    text-align: left;
+    margin-left: 10px;
+    
+
+}
+
+.titulo{
+    width:90%; /* Establecemos que el ancho sera del 90% */
+	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	overflow:hidden; /* Eliminamos errores de float */
+    font-family: sans-serif;
+
+}
+
+
+
+.tienda {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header nav {
+    
+    float:right;
+	line-height:280px;
+    
+    
+}
+
+header nav a:hover {
+	background:#f56f3a;
+	border-radius:50px;
+}
+
+header nav a {
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+    text-decoration: none;
+}
+
+header {
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	padding: 20px 14px -150px ;
+	margin-bottom:100px;
+    display: flex;
+    background: rgb(54, 53, 53);
+    background: radial-gradient(circle, rgba(77, 70, 70, 0.83) 50%, rgb(87, 82, 90) 100%, rgba(0,212,255,1) 100%);
+    border-radius: 17px;
+    
+    
+   
+}
+
+.tarjeta{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1em 1em 1em 2em;
+    padding: 1em;
+    
+    background-color: #d3cdcd;
+   
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    border-radius: 17px;
+    
+    
+
+}
+
+button a{
+    text-decoration: none;
+}
+
+.tarjeta img{
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(239, 205, 255);
+    display: flex;
+   
+    
+    
+
+}
+
+button{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-radius: 4em;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 1em 2em ;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 0 0 0 0 black;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+
+
+button:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 black;
+  };
+  
+  button:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 black;
+  }
+
+
+.tarjeta:hover{
+    border: 1px solid black;
+    transform: scale(1.05);
+
+}
+
+
+button {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    
+}
+
+h2 {
+    color: #111827;
+    font-size: 25px;
+    line-height: 1.7rem;
+    font-weight: 600;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+p{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    color: #f56f3a;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+h3{
+    margin-top: 0.5rem;
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background: rgb(34,33,33);
+    background: radial-gradient(circle, rgba(102, 101, 101, 0.83) 50%, rgba(120,108,128,1) 100%, rgba(0,212,255,1) 100%);
+
+}
+
+footer{
+    
+    display: flex;
+    -webkit-box-align: center;
+    height: inherit;
+    padding: 20px 14px 3px ;
+    position: relative;
+    
+    justify-content: space-between;
+    background-color: rgb(36, 47, 55);
+    width: 98.8%;
+    margin-top: 100px;
+    border-radius: 17px;
+    background: rgb(46, 45, 45);
+    background: radial-gradient(circle, rgba(204, 204, 204, 0.83) 50%, rgb(158, 156, 158) 100%, rgba(0,212,255,1) 100%);
+}
+
+
+.publ a{
+    text-decoration: none;
+    display: flex;
+}
+
+.deportes a{
+    text-decoration: none;
+    
+    
+}
+
+
+.textoFoot h6{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(3, 3, 3);
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 150px;
+    margin-top: 0px;
+    
+    display: flex;
+    
+    
+}
+.textoFoot p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(19, 19, 19);
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 150px;
+    display: flex;
+}
+
+.lineasolo hr{
+    color: black ;
+    border-top: solid;
+    height: 0px;
+    max-width: 150px;
+    padding: 0;
+    margin-left: 150px;
+    margin-top: -50px;
+    display: flex;
+             
+      
+}
+
+
+.titulopubl h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: -150px;
+    margin-top: -2px;
+    font-size: 16px;
+    display: flex;
+}
+
+
+.publ p{
+    margin-left: -430px;
+    margin-top: 6px;
+    color: #111111;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: flex;
+}
+
+.publ hr{
+    color: black ;
+    border-top: solid;
+    height: 0px;
+    width: 100px;
+    padding: 0;
+    margin-left: -452px;
+    margin-top: 20px;
+    display: flex;
+    
+}
+
+.deportes p{
+    margin-left: -389px;
+    margin-top: 2px;
+    
+    color: #1a1919;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+
+}
+
+.deportes h6{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: -436px;
+    margin-top: -8px;
+    font-size: 16px;
+    color:black;
+    text-decoration: none;
+    display: flex;
+    
+}
+
+.deportes hr{
+    color: black ;
+    border-top: solid;
+    height: 0px;
+    width: 100px;
+    padding: 0;
+    margin-left: -422px;
+    margin-top: -32px;
+    display: flex;
+   
+    
+
+    
+}
+
+
+.twitter img {
+    max-width: 30px;
+    margin-left: 170px;
+    margin-bottom: -52px;
+    
+}
+
+.insta img {
+    margin-left: 270px;
+    max-width: 30px;
+    
+    margin-bottom: 100px;
+}
+
+.face img {
+    max-width: 30px;
+    margin-left: 220px;
+    margin-bottom: -32px;
+    
+    
+}
